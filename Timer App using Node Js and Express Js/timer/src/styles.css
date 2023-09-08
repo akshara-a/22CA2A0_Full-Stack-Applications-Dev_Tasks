@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  background-color: #000;
+  margin: 0px;
+}
+
+.App {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  text-decoration: overline;
+  text-align: center;
+}
+
+.addTimer {
+  text-align: center;
+}
+
+.addTimerBtn, .generateJsonBtn {
+  width: 200px;
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.subcontainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  color: #000;
+  text-align: center;
+}
+
+.seconds {
+  padding: 20px 10px;
+  font-size: 30px;
+}
+
+.actions,
+.reset {
+  width: 100px;
+  font-size: 15px;
+  padding: 5px 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+@media (min-width: 320px) {
+  body {
+    margin: 50px 30px;
+  }
+  .subcontainer {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 480px) {
+  body {
+    margin: 50px 30px;
+  }
+  .subcontainer {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: 80px 40px;
+  }
+  .subcontainer {
+    margin: 15px;
+  }
+}
